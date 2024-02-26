@@ -8,7 +8,6 @@ function getAllAppliances() {
 
 function getApplianceInfo(applianceId) {
     return mockData.find((data)=>data.serialNo === applianceId)
-
 }
 
 module.exports = {
